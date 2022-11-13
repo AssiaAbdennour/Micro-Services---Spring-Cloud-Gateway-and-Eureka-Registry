@@ -1,8 +1,8 @@
 ##                                     Micro services - Spring cloud gateway 
                             
 ##    Customer service
-                         
-<img width="957" alt="Customer-service" src="https://user-images.githubusercontent.com/83584345/201545131-a35e2536-0fd9-4bf0-a64e-0b68d8af9eab.png">
-<img width="959" alt="Customer-service-1" src="https://user-images.githubusercontent.com/83584345/201545136-df6fc133-c3f4-4e59-89e9-61cd6fc16b77.png">
+<img width="950" alt="Customer-service" src="https://user-images.githubusercontent.com/83584345/201545406-b451cf8d-18b8-4e9b-85e0-0402d15003a6.png">
+<img width="948" alt="Customer-service-1" src="https://user-images.githubusercontent.com/83584345/201545411-a14929bd-9092-46d5-94df-f671125c7b75.png">
+
 
                             
