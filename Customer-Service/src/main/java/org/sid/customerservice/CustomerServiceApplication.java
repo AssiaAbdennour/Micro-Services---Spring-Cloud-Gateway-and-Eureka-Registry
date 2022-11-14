@@ -20,8 +20,8 @@ public class CustomerServiceApplication {
     CommandLineRunner start(CustomerRepository customerRepository) {
         return args -> {
             customerRepository.save(new Customer(null, "Assia", "assia@gmail.com"));
-            customerRepository.save(new Customer(null, "Imane", "assia@gmail.com"));
-            customerRepository.save(new Customer(null, "Anas", "assia@gmail.com"));
+            customerRepository.save(new Customer(null, "Imane", "imane@gmail.com"));
+            customerRepository.save(new Customer(null, "Anas", "anas@gmail.com"));
             customerRepository.findAll().forEach(c -> {
                 System.out.println(c.toString());
             });
