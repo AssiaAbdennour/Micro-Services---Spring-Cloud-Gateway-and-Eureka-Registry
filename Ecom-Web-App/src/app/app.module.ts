@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {APP_INITIALIZER, NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,6 +7,11 @@ import { ProductsComponent } from './products/products.component';
 import {HttpClientModule} from "@angular/common/http";
 import { CustomersComponent } from './customers/customers.component';
 import { BillComponent } from './bill/bill.component';
+import {KeycloakSecurityService} from "./services/keycloak-security.service";
+
+export function kcFactory(kcSecurity:KeycloakSecurityService) {
+  return()=>kcSecurity.init();
+}
 
 @NgModule({
   declarations: [
@@ -20,7 +25,9 @@ import { BillComponent } from './bill/bill.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    {provide:APP_INITIALIZER,deps:[KeycloakSecurityService],useFactory:kcFactory,multi:true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
