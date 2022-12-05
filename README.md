@@ -13,3 +13,13 @@
 
 ## Billing Service 
 <img width="948" alt="8" src="https://user-images.githubusercontent.com/83584345/201996314-d02144b5-f393-4848-93c4-fa5b1a577003.png">
+
+## Liste des products
+<img width="960" alt="1 liste des produits" src="https://user-images.githubusercontent.com/83584345/205733434-389ad126-ac03-446a-b851-2a85c3f42f4a.png">
+
+## Liste des customers
+<img width="958" alt="2Liste des customers" src="https://user-images.githubusercontent.com/83584345/205733477-a289b848-220c-46ed-91c7-e8872d062c36.png">
+
+## Détail de la facture de client "Assia"
+<img width="948" alt="Facture_client_assia" src="https://user-images.githubusercontent.com/83584345/205733893-a828e10c-78d8-4c37-b4b1-6aed56d17e04.png">
+<img width="947" alt="4Facture_client_assia" src="https://user-images.githubusercontent.com/83584345/205733900-05511833-1e82-4908-aeab-e3f01b418347.png">
