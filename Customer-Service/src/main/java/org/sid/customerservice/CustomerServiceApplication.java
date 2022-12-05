@@ -23,11 +23,11 @@ public class CustomerServiceApplication {
         return args -> {
             customerRepository.save(new Customer(null, "Assia", "assia@gmail.com"));
             customerRepository.save(new Customer(null, "Imane", "imane@gmail.com"));
-<<<<<<< HEAD
+
             customerRepository.save(new Customer(null, "Anas", "Anas@gmail.com"));
-=======
+
             customerRepository.save(new Customer(null, "Anas", "anas@gmail.com"));
->>>>>>> 3501d8e8547855ca20263c5a6a04b722f8b6caf5
+
             customerRepository.findAll().forEach(c -> {
                 System.out.println(c.toString());
             });
