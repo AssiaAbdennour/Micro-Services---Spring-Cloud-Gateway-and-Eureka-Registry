@@ -65,3 +65,20 @@
 <img width="950" alt="4logout" src="https://user-images.githubusercontent.com/83584345/206161985-7790cfaf-aa81-4102-bbb7-0774fcb2bc52.png">
 <img width="960" alt="5_logout" src="https://user-images.githubusercontent.com/83584345/206161992-1a0a9d4b-28c4-43bc-9ee4-abcee0511918.png">
 
+# Dernière partie
+## Intégration du Brocker KAFKA
+<img width="950" alt="3" src="https://user-images.githubusercontent.com/83584345/213029124-6ed29f13-7d09-4390-97a2-ca3197dd2189.png">
+
+## Création d'un micro-service qui permet de produire aléatoirement des factures et de les publier dans un Topic KAFKA
+<img width="673" alt="2" src="https://user-images.githubusercontent.com/83584345/213029228-6de3d7d5-2daf-4db8-87b7-82fbaab000c6.png">
+
+## Permettre au Micro-service déjà développé BILLING-SERVICE de consommer les factures publier dans le Topic KAFKA et de les enregistrer dans sa base de données
+
+## Créer un micro-service Data-Analytics-Service qui utilise l'API KAFKA Streams pour effectuer du Real Time Stream Processing en consommant le streams de facture publiées dans le Topic KAFKA
+<img width="959" alt="4" src="https://user-images.githubusercontent.com/83584345/213029352-5b704ffd-ac98-45fb-90c5-e440b754a021.png">
+
+## Créer une Page Frontend qui permet de présenter en temps réel les courbes qui montrent les résultats produits par le service du Data Analytics
+![Capture d’écran (352)](https://user-images.githubusercontent.com/83584345/213029788-cfe36f16-9374-4cc0-b8e0-1da18de1bb90.png)
+
+
+
