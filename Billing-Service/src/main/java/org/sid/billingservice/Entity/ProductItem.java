@@ -2,6 +2,7 @@ package org.sid.billingservice.Entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.sid.billingservice.Model.Product;
@@ -9,7 +10,7 @@ import org.sid.billingservice.Model.Product;
 import javax.persistence.*;
 
 @Entity
-@Data @NoArgsConstructor @AllArgsConstructor
+@Data @NoArgsConstructor @AllArgsConstructor @Builder
 public class ProductItem {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,4 +24,5 @@ public class ProductItem {
     private Product product;
     @Transient
     private String productName;
+
 }
